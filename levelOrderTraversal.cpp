@@ -52,5 +52,9 @@ int main()
     root->right->right = new node(40);
     
     levelOrder(root);
+	
+    // Time complexity - O(N)
+    // Auxiliary space - O(N) Generally it depends on width of the tree (h) which somehow may become N .
+	
 	return 0;
 }
