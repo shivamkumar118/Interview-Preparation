@@ -13,7 +13,7 @@ struct node
 };
 int maxElemTree(node* root)
 {
-	// recursive algorithm to find the maximum node in the tree.
+	// recursive algorithm to find the maximum node in a given binary tree.
     if(root == NULL)
     return INT_MIN;
     
